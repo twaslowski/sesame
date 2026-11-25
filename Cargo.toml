@@ -1,0 +1,13 @@
+[package]
+name = "sesame"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+arboard = "3.7.0"
+aws-config = "1.13.3"
+aws-sdk-secretsmanager = "1.129.0"
+fuzzy-matcher = "0.3.7"
+ratatui = "0.30.2"
+serde_json = { version = "1.0.154", features = ["preserve_order", "arbitrary_precision"] }
+tokio = { version = "1.54.1", features = ["macros", "rt-multi-thread"] }
